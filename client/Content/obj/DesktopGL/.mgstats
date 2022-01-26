@@ -1,0 +1,6 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"D:/proj/games/multiplayer/mgtest/test/Content/c1.png","D:/proj/games/multiplayer/mgtest/test/Content/bin/DesktopGL/c1.xnb","TextureProcessor","Texture2DContent",7790,69169,0.2642364
+"D:/proj/games/multiplayer/mgtest/test/Content/c2.png","D:/proj/games/multiplayer/mgtest/test/Content/bin/DesktopGL/c2.xnb","TextureProcessor","Texture2DContent",8553,69169,0.0132762
+"D:/proj/games/multiplayer/mgtest/test/Content/c3.png","D:/proj/games/multiplayer/mgtest/test/Content/bin/DesktopGL/c3.xnb","TextureProcessor","Texture2DContent",8724,69169,0.0123154
+"D:/proj/games/multiplayer/mgtest/test/Content/c4.png","D:/proj/games/multiplayer/mgtest/test/Content/bin/DesktopGL/c4.xnb","TextureProcessor","Texture2DContent",8868,69169,0.0123754
+"D:/proj/games/multiplayer/mgtest/test/Content/c5.png","D:/proj/games/multiplayer/mgtest/test/Content/bin/DesktopGL/c5.xnb","TextureProcessor","Texture2DContent",9735,69169,0.0151137
