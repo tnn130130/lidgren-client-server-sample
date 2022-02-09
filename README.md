@@ -1,4 +1,4 @@
-Project for analyzing client-servera application architecture with Lidgren Networking Library and Monogame
+Project for analyzing client-server application architecture with Lidgren Networking Library and Monogame
 
 The project is adapted from https://github.com/lidgren/lidgren-network-gen3 and upgraded to run on .NET 6 with a functional client server sample.
 
