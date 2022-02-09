@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/proj/games/multiplayer/mgtest/test/Content/c2.png</SourceFile>
-  <SourceTime>2015-01-20T04:41:46-08:00</SourceTime>
-  <DestFile>D:/proj/games/multiplayer/mgtest/test/Content/bin/DesktopGL/c2.xnb</DestFile>
-  <DestTime>2022-01-25T20:41:28-08:00</DestTime>
+  <SourceFile>C:/Users/dev/proj/games/multiplayer/lidgren-client-server-sample/client/Content/c2.png</SourceFile>
+  <SourceTime>2022-02-09T06:46:14.1483602-08:00</SourceTime>
+  <DestFile>C:/Users/dev/proj/games/multiplayer/lidgren-client-server-sample/client/Content/bin/DesktopGL/c2.xnb</DestFile>
+  <DestTime>2022-02-09T07:04:17.8116831-08:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T09:17:54-07:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -23,7 +23,8 @@ namespace client
 		int port_wrong = 142142; // screwed up here, no wonder it gave ArgumentOutOfRangeException
 		int port_good = 14242;
 
-		public Game1()
+        #region Game1
+        public Game1()
 		{
 			graphics = new GraphicsDeviceManager(this);
 			Content.RootDirectory = "Content";
@@ -34,7 +35,9 @@ namespace client
 			client = new NetClient(config);
 			client.Start();
 		}
+		#endregion
 
+		#region Init
 		protected override void Initialize()
 		{
 			Console.WriteLine("Client initialized.");
@@ -42,16 +45,20 @@ namespace client
 			// Console.WriteLine($"Found peer at {port}");
 			base.Initialize();
 		}
+        #endregion
 
-		protected override void LoadContent()
+        #region LoadContent
+        protected override void LoadContent()
 		{
 			spriteBatch = new SpriteBatch(GraphicsDevice);
 			textures = new Texture2D[5];
 			for (int i = 0; i < 5; i++)
 				textures[i] = Content.Load<Texture2D>("c" + (i + 1));
 		}
+        #endregion
 
-		protected override void Update(GameTime gameTime)
+        #region Update
+        protected override void Update(GameTime gameTime)
 		{
 			//
 			// Collect input
@@ -118,7 +125,9 @@ namespace client
 
 			base.Update(gameTime);
 		}
-
+		#endregion
+		
+		#region Draw
 		protected override void Draw(GameTime gameTime)
 		{
 			GraphicsDevice.Clear(Color.CornflowerBlue);
@@ -139,8 +148,8 @@ namespace client
 
 			base.Draw(gameTime);
 		}
-
-		protected override void OnExiting(object sender, EventArgs args)
+	#endregion
+        protected override void OnExiting(object sender, EventArgs args)
 		{
 			client.Shutdown("bye");
 

@@ -11,3 +11,6 @@ Windows 10
 Microsoft Visual Studio Community 2022 (64-bit) Version 17.0.5
 
 with most .NET SDKs installed
+
+Credits:
+https://game-endeavor.itch.io/mystic-woods
